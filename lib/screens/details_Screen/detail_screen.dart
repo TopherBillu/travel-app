@@ -201,7 +201,13 @@ class _DetailScreenState extends State<DetailScreen> {
                               borderRadius: BorderRadius.circular(100),
                             ),
                             onPressed: () {},
-                            child: Text("Book trip"),
+                            child: Text(
+                              "Book trip",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 20,
+                              ),
+                            ),
                           ),
                         ],
                       ),

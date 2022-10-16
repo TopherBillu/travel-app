@@ -15,6 +15,19 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // bottomNavigationBar: SafeArea(
+      //   child: Padding(
+      //     padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      //     child: Row(
+      //       children: [
+      //         Icon(
+      //           Icons.home,
+      //           size: 35,
+      //         ),
+      //       ],
+      //     ),
+      //   ),
+      // ),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 15),
